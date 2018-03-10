@@ -1,0 +1,57 @@
+.navbar {
+	background: #262730;
+}
+
+.jumbotron {
+	background-image: url("../images/header.jpg");
+	background-position: center 40%;
+	background-size: cover;
+	height: 400px;
+	border-radius: 0px;
+}
+
+.jumbotron h1 {
+	text-align: center;
+	color: #fdfdff;
+	margin-top: 15%;
+}
+
+.card {
+	border: none;
+}
+
+.card a {
+	text-decoration: none;
+	color: black;
+}
+
+.card:hover {
+	background: #262730;
+}
+
+.card:hover a {
+	color: #fff;
+}		
+
+.social {
+	text-align: right;
+}
+
+.social img {
+	height: 30px;
+}
+
+.content {
+	margin-top: 100px;
+	font-size: 1.25em;
+}
+
+.content h2 {
+	margin-bottom: 10px;
+}
+
+footer {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 100px;
+}
