@@ -7,13 +7,23 @@
 	background-position: center 40%;
 	background-size: cover;
 	height: 400px;
-	border-radius: 0px;
+	border-radius: 0;
 }
 
 .jumbotron h1 {
 	text-align: center;
 	color: #fdfdff;
 	margin-top: 15%;
+	text-shadow: 1px 1px #0a2239;
+}
+
+.jumbotron-subpage {
+	height: 100px;
+}
+
+.jumbotron-subpage h1 {
+	margin-top: 1%;
+	font-size: x-large;
 }
 
 .card {
