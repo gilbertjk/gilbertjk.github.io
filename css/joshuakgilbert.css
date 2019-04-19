@@ -60,6 +60,15 @@
 	margin-bottom: 20px;
 }
 
+.mobile-view {
+	display: none;
+}
+
+@media only screen and (max-device-width: 480px) {
+	.mobile-view {display: block;}
+	.desktop-view {display: none;}
+}
+
 footer {
 	font-size: 12px;
 	text-align: center;
