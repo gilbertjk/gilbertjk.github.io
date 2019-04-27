@@ -1,76 +1,48 @@
-.navbar {
-	background: #262730;
+:root {
+	--dark-blue: #0A2239;
+	--white: #FDFDFF;
+	--orange: #F06543;
+	--cornflower: #6495ED;
+	--blue: #0A2472;
 }
 
-.jumbotron {
-	background-image: url("../images/header.jpg");
-	background-position: center 40%;
-	background-size: cover;
-	height: 400px;
-	border-radius: 0;
+body{
+	background-color: var(--cornflower);
 }
 
-.jumbotron h1 {
-	text-align: center;
-	color: #fdfdff;
-	margin-top: 15%;
-	text-shadow: 1px 1px #0a2239;
+.content{
+	padding: 2% 20%;
+	min-width: 300px;
 }
 
-.jumbotron-subpage {
-	height: 100px;
-}
-
-.jumbotron-subpage h1 {
-	margin-top: 1%;
-	font-size: x-large;
-}
-
-.card {
-	border: none;
-}
-
-.card a {
+.content a {
 	text-decoration: none;
-	color: black;
+	color: var(--dark-blue);
 }
 
-.card:hover {
-	background: #262730;
+.spaced-text{
+	font-family: Montserrat sans-serif;
+	font-variant: all-small-caps;
+	font-size: 24pt;
+	color: var(--dark-blue);
+	letter-spacing: 3px;
 }
 
-.card:hover a {
-	color: #fff;
-}		
-
-.social {
-	text-align: right;
+.logo{
+	width: 200px;
+	padding: 2% 0;
 }
 
-.social img {
-	height: 30px;
+.body-text{
+	word-spacing: 1px;
+	font-family: Georgia serif;
+	color: var(--white);
+	font-size: 18pt;
 }
 
-.content {
-	margin-top: 50px;
-	font-size: 1.25em;
-}
-
-.content h2 {
-	margin-bottom: 20px;
-}
-
-.mobile-view {
-	display: none;
-}
-
-@media only screen and (max-width: 480px) {
-	.mobile-view {display: block;}
-	.desktop-view {display: none;}
-}
-
-footer {
-	font-size: 12px;
+footer{
+	font-family: Montserrat sans-serif;
+	font-size: 10pt;
 	text-align: center;
-	margin-top: 100px;
+	color: var(--dark-blue);
 }
