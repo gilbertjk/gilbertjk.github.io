@@ -21,7 +21,7 @@ body{
 }
 
 .spaced-text{
-	font-family: Montserrat sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-variant: all-small-caps;
 	font-size: 24pt;
 	color: var(--dark-blue);
@@ -35,13 +35,13 @@ body{
 
 .body-text{
 	word-spacing: 1px;
-	font-family: Georgia serif;
+	font-family: Georgia, serif;
 	color: var(--white);
 	font-size: 18pt;
 }
 
 footer{
-	font-family: Montserrat sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-size: 10pt;
 	text-align: center;
 	color: var(--dark-blue);
