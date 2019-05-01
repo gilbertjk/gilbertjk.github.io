@@ -10,9 +10,19 @@ body{
 	background-color: var(--cornflower);
 }
 
+/*.navbar{
+	justify-content: normal;
+	font-family: Roboto Slab, serif;
+	font-size: small;
+}
+
+.navbar-brand{
+	font-size: 1rem;
+}*/
+
 .content{
-	padding: 2% 20%;
-	min-width: 300px;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 .content a {
@@ -23,7 +33,8 @@ body{
 .spaced-text{
 	font-family: Montserrat, sans-serif;
 	font-variant: all-small-caps;
-	font-size: 24pt;
+	font-size: 30pt;
+	font-weight: bold;
 	color: var(--dark-blue);
 	letter-spacing: 3px;
 }
@@ -35,9 +46,11 @@ body{
 
 .body-text{
 	word-spacing: 1px;
-	font-family: Georgia, serif;
+	font-family: Roboto Slab, serif;
 	color: var(--white);
-	font-size: 18pt;
+	font-size: 16pt;
+	min-width: 320px;
+	margin: 0 20%;
 }
 
 footer{
