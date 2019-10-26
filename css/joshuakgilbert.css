@@ -1,72 +1,79 @@
 :root {
-	--dark-blue: #0A2239;
-	--white: #FDFDFF;
-	--orange: #F06543;
-	--cornflower: #6495ED;
-	--blue: #0A2472;
+	--dark-blue: #2C4068;
+	--orange: #FF7F61;
+	--light-brown:  #E3DECA;
+	--cream:  #FCF8F0;
 }
 
-body{
-	background-color: var(--cornflower);
+html, body {
+	height: 100%;
+	min-height: 500px;
 }
 
-/*.navbar{
-	justify-content: normal;
-	font-family: Roboto Slab, serif;
-	font-size: small;
+body {
+	background-image:
+			linear-gradient(rgba(17, 25, 41, 0.5), rgba(17, 25, 41, 0.5)),
+			url("../assets/Forest Road.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
 }
 
-.navbar-brand{
-	font-size: 1rem;
-}*/
-
-.content{
-	margin-top: 2%;
-	margin-bottom: 2%;
+.content {
+	flex: 1 0 auto;
 }
 
-.content a{
-	text-decoration: none;
-	color: var(--blue);
+.title {
+	font-family: Oswald, sans-serif;
+	font-size:  5vw;
+	color:  white;
+	text-align: center;
 }
 
-.content a:hover{
-	color: var(--dark-blue);
+.logo {
+	max-width: 200px;
+	margin: 0 auto;
 }
 
-.spaced-text{
-	font-family: Montserrat, sans-serif;
-	font-variant: all-small-caps;
-	font-size: 30pt;
-	font-weight: bold;
-	color: var(--dark-blue);
-	letter-spacing: 3px;
-}
-
-.logo{
+.logo > img {
 	width: 200px;
-	margin: 20px 0;
 }
 
-.body-text{
-	word-spacing: 1px;
-	font-family: Roboto Slab, serif;
-	color: var(--white);
-	font-size: 16pt;
-	padding: 0 20%;
+.row {
+	text-align: center;
+	margin:  3% 5%;
 }
 
-@media only screen and (max-width: 600px) {
-    .body-text{
-        min-width: 300px;
-        padding: 0 1%;
-    }
+.button-link {
+	margin: 1% auto;
+	padding: 10px;
+	border-style: solid;
+	border-color:  white;
+	border-width:  1px;
+	font-family: Raleway, sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	max-width: 275px;
+}
+
+.button-link:hover {
+	background: white;
+	color: var(--dark-blue);
+	font-weight: bold;
+	text-decoration: none;
 }
 
 footer{
-	font-family: Montserrat, sans-serif;
+	font-family: Raleway, sans-serif;
 	font-size: 10pt;
 	text-align: center;
-    margin-top: 20px;
-	color: var(--dark-blue);
+	color: white;
+	width: 100%;
+	flex-shrink: 0;
 }
