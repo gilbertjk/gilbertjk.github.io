@@ -5,9 +5,9 @@
 	--cream:  #FCF8F0;
 }
 
-html, body {
-	height: 100%;
-	min-height: 525px;
+html {
+	height: 100vh;
+	min-height: 460px;
 }
 
 body {
